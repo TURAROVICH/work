@@ -1,12 +1,19 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './footer-header.css'
 
 // imgs
 import logo from '../assets/logo 1.png'
 import title from '../assets/Amodoc.com.png'
 // end imgs
+import {
+    Link
+  } from "react-router-dom";
 
 export default function Header (){
+    const [url,setUrl] = useState(window.location.href.includes('auth'))
+    useEffect(()=>{
+        console.log('hello');
+    },[url])
     return (
     <div className="header">
         <header>
@@ -14,7 +21,7 @@ export default function Header (){
             <img src={logo} alt="" />
              <img src={title} alt="" />
              </div>
-
+{!url && (
              <div className="nav">
                <div className="link">
                    <div className="link-title">
@@ -54,14 +61,19 @@ export default function Header (){
                </div>
 
              </div>
+)}
 
             <div className="auth">
-                  <div className="sign-up">
+                 <Link style={{textDecoration:'none'}} to="/auth/login">
+                 <div className="sign-up">
                      <span>Sign Up</span>
                   </div>
+                 </Link>
+                 <Link style={{textDecoration:'none'}} to="/auth/register">
                   <div className="log-in">
                       <span>Log In</span>
                   </div>
+                  </Link>
             </div>
         </header>
     </div>

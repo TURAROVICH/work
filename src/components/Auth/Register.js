@@ -17,13 +17,13 @@ export default () => {
 
                     <div className={stl.container_radio}>
   <div className={stl.radio}>
-    <input id="radio-1" className={stl.radio_2} name="radio" type="radio" checked />
-    <label for="radio-1" className={stl.radio_label}>Doctor</label>
+    <input id="radio-1" className={stl.radio_2} name="radio" type="radio"  />
+    <label htmlFor="radio-1" className={stl.radio_label}>Doctor</label>
   </div>
 
   <div className={stl.radio}>
     <input id="radio-2" className={stl.radio_2} name="radio" type="radio" />
-    <label  for="radio-2" className={stl.radio_label}>Clinic</label>
+    <label  htmlFor="radio-2" className={stl.radio_label}>Clinic</label>
   </div>
 
 </div>
