@@ -1,0 +1,35 @@
+.adsres-container{
+    /* White */
+width: 100%;
+background: #FFFFFF;
+/* Neu */
+min-height: 60px;
+box-shadow: 5px 5px 10px rgba(224, 224, 224, 0.2), -5px -5px 10px rgba(224, 224, 224, 0.2), 5px -5px 10px rgba(255, 255, 255, 0.9), -5px 5px 13px rgba(224, 224, 224, 0.9);
+border-radius: 10px;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+gap: 20%;
+padding: 0 20px;
+}
+
+.addres{
+    display: flex;
+    gap: 10px;
+}
+
+.title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.des{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+}

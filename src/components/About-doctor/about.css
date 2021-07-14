@@ -1,0 +1,326 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.links{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.links a,.links span{
+    
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+text-decoration: none;
+
+/* Green */
+
+color: #479D83;
+
+}
+
+.container{
+    margin: 30px auto;
+    width: 90%;
+    padding: 0 30px;
+}
+
+.name{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.first-name{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 38px;
+
+/* Black */
+
+color: #292929;
+}
+.last-name{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    
+    color: #5D6475;
+}
+
+
+.grid{
+    margin: 30px 0;
+    display: grid;
+    grid-row-gap: 20px;
+    grid-column-gap: 30px;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 3fr 1fr;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-title{
+    
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 38px;
+text-align: center;
+
+/* Green */
+
+color: #479D83;
+}
+
+.card-des{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+text-align: center;
+
+/* Green */
+
+color: #479D83;
+}
+.about-practice{
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.card-title span{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+
+/* Green */
+
+color: #479D83;
+}
+
+
+.about-the-doctor{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-title{
+    
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 34px;
+/* identical to box height */
+
+
+/* Green */
+
+color: #479D83;
+display: flex;
+gap: 10px;
+width: 100%;
+align-items: center;
+justify-content: flex-start;
+}
+.about-title img{
+    width: 24px;
+    height: 24px;
+}
+
+.mini-grid{
+    display: grid;
+    margin: 20px 0;
+    grid-template-columns: 1fr 1fr ;
+grid-gap: 10px;
+}
+
+.about-card{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px ;
+    display: flex;
+    gap: 5px;
+    flex-direction: center;
+    border-left: 3px solid #479D83;
+}
+
+
+.about-card-title{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 130% */
+
+
+/* Green */
+
+color: #479D83;
+}
+
+.about-card-des span{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 27px;
+/* or 190% */
+
+
+color: #5D6475;
+}
+.about-card-des {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    /* or 190% */
+    
+    
+    color: #5D6475;
+}
+
+
+.f-2{
+    display: flex;
+    justify-content: space-between;
+}
+.specializes{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+.btn{
+    width: 119px;
+height: 36px;
+left: 983px;
+top: 542px;
+padding: 10px 20px;
+/* Yellow */
+
+background: #FFDE59;
+border-radius: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+}
+.btn span{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* or 130% */
+
+
+/* Gray */
+
+color: #5D6475;
+}
+
+
+.btn-w-t{
+    padding: 13px 20px;
+
+
+width: 230px;
+height: 48px;
+
+/* Green */
+
+background: #479D83;
+border-radius: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.btn-w-t span{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+text-align: center;
+
+/* White */
+
+color: #FFFFFF;
+
+}
+
+
+.to-call{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.btn-video-call{
+    padding: 14px 10px;
+
+
+width: 123px;
+height: 48px;
+display: flex;
+align-items: center;
+justify-content: center;
+/* Yellow */
+
+background: #FFDE59;
+border-radius: 10px;
+}
+
+.last{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.last .des{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 27px;
+}
