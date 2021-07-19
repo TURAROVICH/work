@@ -257,3 +257,22 @@ align-items: center;
 justify-content: center;
 gap: 0px;
   }
+
+
+
+  @media screen and (max-width:634px) {
+      .container{
+          min-width: 100%;
+      }
+  }
+
+  input,input:focus{
+    color:#292929;
+  }
+::placeholder{
+      color: #555151;
+      opacity: .8;
+  }
+
+
+  

@@ -13,7 +13,14 @@ import kor from '../../assets/kor.png'
 import vidoe from '../../assets/video.png'
 // end imgs
 
+//components
+import LinkTMP from '../../fragments/Links'
+//end componenst
+
+
+//styles
 import './about.css'
+//end styles
 import {
     Link
   } from "react-router-dom";
@@ -21,11 +28,7 @@ import {
 export default function About(){
     return(
         <div className="container-">
-            <div className="links">
-                <Link to={"/"}>Main</Link> <img src={Arrow} alt="" />
-                 <Link to={"/doctors"}>Doctors</Link><img src={Arrow} alt="" />
-                 <span>Dr. Woo Sik Lee</span>
-            </div>
+            <LinkTMP route2={{path:'/doctors',name:'Doctors'}} lastRoute={' Dr. Woo Sik Lee'} />
 
             <div className="grid">
                 <div className="profile">
@@ -43,8 +46,8 @@ export default function About(){
 
                     <div className="about-practice">
                         <div className="card">
-                            <div className="card-title">
-                            4,5 <img src={Star} alt="" />
+                            <div className="card-title flex items-end">
+                            4,5<img style={{width:16,height:16}} src={Star} alt="" />
                             </div>
                             <div className="card-des">
                             112 reviews

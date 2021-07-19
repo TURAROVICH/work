@@ -324,3 +324,46 @@ font-weight: bold;
 font-size: 14px;
 line-height: 27px;
 }
+
+
+
+@media screen and (max-width:1050px){
+    .grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto ;
+    }
+    .to-call{
+        justify-content: flex-start;
+    }
+    .specializes{
+        align-items: flex-start;
+        gap: 0px;
+    }
+}
+@media screen and (max-width:814px){
+    .f-2{
+        flex-direction: column;
+    }
+    .btns{
+        justify-content: flex-start;
+    }
+    .container{
+        width: 100%;
+    }
+}
+
+@media  (max-width:544px) {
+    .mini-grid{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .to-call{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .grid{
+        grid-row-gap: 40px;
+    }
+}
